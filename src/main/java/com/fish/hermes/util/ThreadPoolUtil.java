@@ -1,7 +1,10 @@
-package com.fish.hermes;
+package com.fish.hermes.util;
 
 import java.util.concurrent.*;
 
+/**
+ * 线程实验工具类
+ */
 public class ThreadPoolUtil {
     private static ThreadPoolExecutor threadPoolExecutor;
 
