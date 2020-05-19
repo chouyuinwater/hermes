@@ -15,11 +15,12 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * EnableAutoConfiguration 自动加载Spring包
  *
  * EnableTransactionManagement 处理事务
+ *
+ * 2020/5/19 离职办理完毕，特此留念
  */
 @SpringBootApplication
 @EnableTransactionManagement
 public class HermesApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(HermesApplication.class, args);
 	}
